@@ -10,24 +10,29 @@ interface StackTabsProps {
 }
 
 export function StackTabs({ stacks }: StackTabsProps) {
-  const [activeId, setActiveId] = useState<string>(stacks[0]?.id ?? '')
+  // Lazy initializer reads URL hash on first client render — no effect needed for mount sync
+  const [activeId, setActiveId] = useState<string>(() => {
+    if (typeof window === 'undefined') return stacks[0]?.id ?? ''
+    const hash = window.location.hash.replace('#', '')
+    return stacks.find((s) => s.id === hash)?.id ?? stacks[0]?.id ?? ''
+  })
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([])
 
-  // Sync with URL hash on mount
+  // Listen for external hash changes (browser back/forward)
   useEffect(() => {
-    const hash = window.location.hash.replace('#', '')
-    const match = stacks.find((s) => s.id === hash)
-    if (match) setActiveId(match.id)
+    const onHashChange = () => {
+      const hash = window.location.hash.replace('#', '')
+      const match = stacks.find((s) => s.id === hash)
+      if (match) setActiveId(match.id)
+    }
+    window.addEventListener('hashchange', onHashChange)
+    return () => window.removeEventListener('hashchange', onHashChange)
   }, [stacks])
 
-  const selectTab = useCallback(
-    (id: string) => {
-      setActiveId(id)
-      // Update URL hash without scrolling
-      history.pushState(null, '', `#${id}`)
-    },
-    []
-  )
+  const selectTab = useCallback((id: string) => {
+    setActiveId(id)
+    history.pushState(null, '', `#${id}`)
+  }, [])
 
   // Keyboard navigation between tabs
   const handleKeyDown = (
@@ -46,8 +51,6 @@ export function StackTabs({ stacks }: StackTabsProps) {
       selectTab(stacks[next].id)
     }
   }
-
-  const activeStack = stacks.find((s) => s.id === activeId) ?? stacks[0]
 
   return (
     <div>

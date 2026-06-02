@@ -23,7 +23,7 @@ export function SectionWrapper({
         className
       )}
     >
-      <div className="mx-auto max-w-[1200px] px-6 py-20 lg:px-8 lg:py-20 py-12">
+      <div className="mx-auto max-w-[1200px] px-6 py-12 lg:px-8 lg:py-20">
         {children}
       </div>
     </Tag>
