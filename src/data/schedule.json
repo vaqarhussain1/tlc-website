@@ -1,0 +1,85 @@
+[
+  {
+    "date": "2026-06-03",
+    "dateEnd": "2026-06-04",
+    "courseCode": "TN512",
+    "courseName": "The Foundation of TOGAF Business Architecture",
+    "location": "Karachi / Online"
+  },
+  {
+    "date": "2026-06-09",
+    "dateEnd": "2026-06-10",
+    "courseCode": "TN227",
+    "courseName": "Cybersecurity Risk Management Framework — CSF 2.0",
+    "location": "Karachi / Online"
+  },
+  {
+    "date": "2026-06-16",
+    "dateEnd": "2026-06-17",
+    "courseCode": "TN212",
+    "courseName": "TOGAF Enterprise Architecture Framework",
+    "location": "Karachi / Online"
+  },
+  {
+    "date": "2026-06-23",
+    "dateEnd": "2026-06-24",
+    "courseCode": "TN285",
+    "courseName": "AI-Driven Business Resilience & Data Protection Strategy",
+    "location": "Karachi / Online"
+  },
+  {
+    "date": "2026-06-29",
+    "dateEnd": "2026-06-30",
+    "courseCode": "TN490",
+    "courseName": "Strategic Leadership in AI — Governing AI with ISO/IEC 42001",
+    "location": "Karachi / Online"
+  },
+  {
+    "date": "2026-07-07",
+    "dateEnd": "2026-07-08",
+    "courseCode": "TN280",
+    "courseName": "Zero Trust Security Implementation for the Hybrid Enterprise",
+    "location": "Karachi / Online"
+  },
+  {
+    "date": "2026-07-14",
+    "dateEnd": "2026-07-15",
+    "courseCode": "TN512",
+    "courseName": "The Foundation of TOGAF Business Architecture",
+    "location": "Lahore / Online"
+  },
+  {
+    "date": "2026-07-21",
+    "dateEnd": "2026-07-22",
+    "courseCode": "TN490",
+    "courseName": "Strategic Leadership in AI — Governing AI with ISO/IEC 42001",
+    "location": "Islamabad / Online"
+  },
+  {
+    "date": "2026-07-27",
+    "courseCode": "TN216",
+    "courseName": "Decision Making and Business Analytics for Leaders",
+    "location": "Karachi / Online"
+  },
+  {
+    "date": "2026-08-04",
+    "dateEnd": "2026-08-05",
+    "courseCode": "TN212",
+    "courseName": "TOGAF Enterprise Architecture Framework",
+    "location": "Karachi / Online"
+  },
+  {
+    "date": "2026-08-11",
+    "dateEnd": "2026-08-12",
+    "courseCode": "TN227",
+    "courseName": "Cybersecurity Risk Management Framework — CSF 2.0",
+    "location": "Lahore / Online"
+  },
+  {
+    "date": "2026-08-18",
+    "dateEnd": "2026-08-19",
+    "courseCode": "TN285",
+    "courseName": "AI-Driven Business Resilience & Data Protection Strategy",
+    "location": "Karachi / Online"
+  }
+]

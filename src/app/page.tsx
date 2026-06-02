@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { HeroSection } from '@/components/home/HeroSection'
 import { StatBlock } from '@/components/home/StatBlock'
+import { ServicesOverview } from '@/components/home/ServicesOverview'
+import { FeaturedCourses } from '@/components/home/FeaturedCourses'
 import { siteConfig } from '@/lib/site-config'
 
 export const metadata: Metadata = {
@@ -20,8 +22,8 @@ export default function Home() {
     <>
       <HeroSection />
       <StatBlock />
-      {/* Services overview — Story 2.2 */}
-      {/* Featured courses — Story 2.2 */}
+      <ServicesOverview />
+      <FeaturedCourses />
       {/* Client logo wall — Story 2.3 */}
     </>
   )

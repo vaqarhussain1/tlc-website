@@ -1,0 +1,198 @@
+[
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity",
+    "courses": [
+      {
+        "code": "TN280",
+        "name": "Zero Trust Security Implementation for the Hybrid Enterprise",
+        "description": "Comprehensive Zero Trust architecture framework and implementation roadmap for enterprise environments."
+      },
+      {
+        "code": "TN227",
+        "name": "Cybersecurity Risk Management Framework — CSF 2.0",
+        "description": "NIST CSF 2.0 implementation — risk identification, assessment, and management for enterprise security teams."
+      },
+      {
+        "code": "TN224",
+        "name": "Building Effective Security Operations Centers",
+        "description": "Design, build, and operationalise a world-class SOC — people, processes, technology, and governance."
+      },
+      {
+        "code": "TN285",
+        "name": "AI-Driven Business Resilience & Data Protection Strategy",
+        "description": "Data protection strategy and business continuity planning in an AI-first enterprise environment."
+      },
+      {
+        "code": "TN221",
+        "name": "Open Banking Payment System Framework",
+        "description": "Open banking architecture, security considerations, and payment system frameworks for financial institutions."
+      },
+      {
+        "code": "TN225",
+        "name": "Cloud Computing Security Reference Architecture Framework",
+        "description": "Cloud security architecture patterns, controls, and frameworks for enterprise cloud adoption."
+      },
+      {
+        "code": "TN220",
+        "name": "Secure APIs for Enterprise Integration",
+        "description": "API security design patterns, OAuth, zero-trust API gateways, and threat mitigation strategies."
+      },
+      {
+        "code": "TN226",
+        "name": "SASE — Secure Access Service Edge",
+        "description": "Converging networking and security in the cloud — SASE architecture, vendors, and implementation."
+      },
+      {
+        "code": "TN228-I",
+        "name": "User & Entity Behaviour Analytics (UEBA) — Part I",
+        "description": "Leveraging behavioural analytics to detect insider threats and advanced persistent threats."
+      },
+      {
+        "code": "TN228-II",
+        "name": "User & Entity Behaviour Analytics (UEBA) — Part II",
+        "description": "Advanced UEBA use cases — threat hunting, incident response integration, and ML models."
+      }
+    ]
+  },
+  {
+    "id": "enterprise-architecture",
+    "name": "Enterprise Architecture",
+    "courses": [
+      {
+        "code": "TN212",
+        "name": "TOGAF Enterprise Architecture Framework",
+        "description": "The Open Group Architecture Framework — foundation to practitioner, delivered by certified instructors with 25+ years experience."
+      },
+      {
+        "code": "TN512",
+        "name": "The Foundation of TOGAF Business Architecture",
+        "description": "Business architecture essentials within the TOGAF framework — strategy, capability mapping, and value streams."
+      },
+      {
+        "code": "TN215",
+        "name": "IT Infrastructure Business Resilience",
+        "description": "Designing resilient IT infrastructure — redundancy, failover strategies, and business continuity planning."
+      }
+    ]
+  },
+  {
+    "id": "digital-transformation",
+    "name": "Digital Transformation",
+    "courses": [
+      {
+        "code": "TN210",
+        "name": "Digital Customer Experience Management",
+        "description": "Customer experience strategy for digital channels — journey mapping, personalisation, and omnichannel design."
+      },
+      {
+        "code": "TN211",
+        "name": "Digital Transformation Strategy",
+        "description": "End-to-end digital transformation roadmap — business model innovation, technology selection, and change management."
+      },
+      {
+        "code": "TN282",
+        "name": "Blockchain Technology for Business Transformation",
+        "description": "Enterprise blockchain use cases, platforms, and implementation strategies for business transformation."
+      },
+      {
+        "code": "TN209",
+        "name": "Big Data Analytics for Business Leaders",
+        "description": "Leveraging big data platforms and analytics to derive actionable business intelligence."
+      },
+      {
+        "code": "TN219",
+        "name": "Predictive Enterprise Analytics",
+        "description": "Predictive modelling, machine learning pipelines, and data-driven decision making for the enterprise."
+      }
+    ]
+  },
+  {
+    "id": "storage-technologies",
+    "name": "Storage Technologies",
+    "courses": [
+      {
+        "code": "TN185",
+        "name": "IBM DS8000 Storage Systems Management",
+        "description": "Configuration, management, and optimisation of IBM DS8000 enterprise storage systems."
+      },
+      {
+        "code": "TN184",
+        "name": "IBM Storwize V7000 — Administration and Implementation",
+        "description": "Hands-on administration, configuration, and performance tuning of IBM Storwize V7000."
+      },
+      {
+        "code": "TN167",
+        "name": "Enterprise Storage Technology Management",
+        "description": "Storage architecture, SAN/NAS design, capacity planning, and storage lifecycle management."
+      },
+      {
+        "code": "TN170",
+        "name": "NetApp Data Management and Storage Solutions",
+        "description": "NetApp ONTAP architecture, data management, and storage efficiency technologies."
+      },
+      {
+        "code": "TN186",
+        "name": "IBM Spectrum Protect (TSM) Implementation",
+        "description": "IBM Spectrum Protect backup and recovery — architecture, configuration, and operational best practices."
+      }
+    ]
+  },
+  {
+    "id": "soft-skills",
+    "name": "Soft Skills",
+    "courses": [
+      {
+        "code": "TN216",
+        "name": "Decision Making and Business Analytics for Leaders",
+        "description": "Structured decision-making frameworks, analytical thinking, and data-informed leadership for business and technology leaders."
+      },
+      {
+        "code": "TN418",
+        "name": "Organisational Behaviour and Leadership Dynamics",
+        "description": "Understanding team dynamics, motivation, organisational culture, and effective leadership styles."
+      },
+      {
+        "code": "TN415",
+        "name": "Technical Writing for IT Professionals",
+        "description": "Clear, concise technical documentation — proposals, reports, SOPs, and stakeholder communications."
+      }
+    ]
+  },
+  {
+    "id": "executive-leadership",
+    "name": "Executive Leadership",
+    "courses": [
+      {
+        "code": "TN490",
+        "name": "Strategic Leadership in AI — Governing AI with ISO/IEC 42001",
+        "description": "AI governance frameworks for executives — ISO/IEC 42001, risk management, ethics, and responsible AI adoption."
+      },
+      {
+        "code": "TN481",
+        "name": "Zero Trust Security for Executive Leadership",
+        "description": "Executive-level Zero Trust security briefing — business case, risk posture, and board-level communication."
+      },
+      {
+        "code": "TN480",
+        "name": "Digital Transformation for Senior Business Executives",
+        "description": "Strategic digital transformation — competitive landscape, technology investment decisions, and organisational change."
+      },
+      {
+        "code": "TN488",
+        "name": "Secure APIs — Executive Briefing",
+        "description": "API economy, business risk of insecure integrations, and executive governance of API security strategy."
+      },
+      {
+        "code": "TN489",
+        "name": "SASE for Enterprise Decision Makers",
+        "description": "Executive briefing on Secure Access Service Edge — business drivers, vendor landscape, and TCO analysis."
+      },
+      {
+        "code": "TN513",
+        "name": "Strategic Leadership in AI — Advanced",
+        "description": "Advanced AI leadership — building AI-ready organisations, managing AI talent, and scaling responsible AI."
+      }
+    ]
+  }
+]
