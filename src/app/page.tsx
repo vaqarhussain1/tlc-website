@@ -1,8 +1,28 @@
+import type { Metadata } from 'next'
+import { HeroSection } from '@/components/home/HeroSection'
+import { StatBlock } from '@/components/home/StatBlock'
+import { siteConfig } from '@/lib/site-config'
+
+export const metadata: Metadata = {
+  title: siteConfig.name,
+  description: siteConfig.description,
+  openGraph: {
+    title: siteConfig.name,
+    description: siteConfig.description,
+    url: siteConfig.url,
+    siteName: siteConfig.name,
+    images: [{ url: siteConfig.ogImage }],
+  },
+}
+
 export default function Home() {
   return (
-    <div className="py-20 px-6 text-center">
-      <h1 className="text-4xl font-bold text-charcoal">Homepage — Coming in Story 2.1</h1>
-      <p className="mt-4 text-grey-400">TLC Website Redesign — Epic 1 Foundation</p>
-    </div>
+    <>
+      <HeroSection />
+      <StatBlock />
+      {/* Services overview — Story 2.2 */}
+      {/* Featured courses — Story 2.2 */}
+      {/* Client logo wall — Story 2.3 */}
+    </>
   )
 }
